@@ -1,0 +1,27 @@
+.schema {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* Editor styles - visible in AEM Universal Editor for authoring */
+body.aem-GridColumn .schema {
+  display: block !important;
+  visibility: visible;
+  background-color: #f0f0f0;
+  border: 2px dashed #999;
+  padding: 1rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.875rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 1rem 0;
+}
+
+body.aem-GridColumn .schema::before {
+  content: '📋 Schema JSON-LD (Hidden on published site)';
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-family: system-ui, -apple-system, sans-serif;
+}

@@ -797,5 +797,25 @@
         "readOnly": true
       }
     ]
+  },
+  {
+    "id": "schema",
+    "fields": [
+      {
+        "component": "text",
+        "name": "schemaType",
+        "label": "Schema Type",
+        "description": "Type of schema (WebSite, Organization, Product, etc.)",
+        "valueType": "string"
+      },
+      {
+        "component": "multiline",
+        "name": "jsonContent",
+        "label": "JSON-LD Content",
+        "description": "Complete JSON-LD structured data. Must be valid JSON.",
+        "valueType": "string",
+        "required": true
+      }
+    ]
   }
 ]
