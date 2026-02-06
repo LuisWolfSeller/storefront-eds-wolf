@@ -803,16 +803,9 @@
     "fields": [
       {
         "component": "text",
-        "name": "schemaType",
-        "label": "Schema Type",
-        "description": "Type of schema (WebSite, Organization, Product, etc.)",
-        "valueType": "string"
-      },
-      {
-        "component": "multiline",
-        "name": "jsonContent",
+        "name": "content",
         "label": "JSON-LD Content",
-        "description": "Complete JSON-LD structured data. Must be valid JSON.",
+        "description": "Paste your complete JSON-LD structured data",
         "valueType": "string",
         "required": true
       }
