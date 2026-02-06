@@ -5,41 +5,6 @@
 
 /* Por defecto: oculto en producción */
 .schema {
-  display: none !important;
-  visibility: hidden;
+ 
 }
 
-/* Visible en Universal Editor */
-.schema.schema-editor-mode {
-  display: block !important;
-  visibility: visible;
-  background-color: #f5f5f5;
-  border: 2px dashed #0066cc;
-  border-radius: 4px;
-  padding: 1rem;
-  margin: 1rem 0;
-  font-family: 'Monaco', 'Courier New', monospace;
-  font-size: 0.875rem;
-  white-space: pre-wrap;
-  word-break: break-word;
-  max-height: 400px;
-  overflow-y: auto;
-}
-
-.schema-indicator {
-  display: block;
-  font-weight: bold;
-  font-family: system-ui, -apple-system, sans-serif;
-  color: #0066cc;
-  font-size: 0.875rem;
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #ddd;
-}
-
-/* Estilos adicionales para el editor de AEM */
-body.aem-GridColumn .schema,
-.aem-AuthorLayer-Edit .schema {
-  display: block !important;
-  visibility: visible;
-}
